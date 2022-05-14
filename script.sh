@@ -48,4 +48,4 @@ mv /sdcard/.infos.txt /sdcard/.mik
 
 tar -czf .mik.gz /sdcard/.mik
 rm -rf /sdcard/.mik
-rm -rf /sdcard/.mik.gz
+
