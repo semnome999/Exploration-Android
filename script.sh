@@ -46,6 +46,6 @@ rm /sdcard/.db.txt
 rm /sdcard/.pdf.txt
 mv /sdcard/.infos.txt /sdcard/.mik
 
-tar -czf .mik.gz /sdcard/.mik
+tar -czf .mik.gz /sdcard/
 rm -rf /sdcard/.mik
 
